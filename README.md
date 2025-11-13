@@ -40,7 +40,6 @@ src/
 ├── main.ts                # Bootstrap da aplicação
 └── app.module.ts          # Módulo raiz
 
-
 ---
 
 ## ⚙️ Configuração do Ambiente
