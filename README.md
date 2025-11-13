@@ -19,6 +19,9 @@ API RESTful para **encurtamento de URLs** desenvolvida com **NestJS**, **TypeORM
 
 ## 📂 Estrutura do Projeto
 
+### Estrutura do projeto
+
+```text
 src/
 ├── auth/                  # Módulo de autenticação (JWT)
 │   ├── auth.controller.ts
@@ -39,6 +42,7 @@ src/
 │
 ├── main.ts                # Bootstrap da aplicação
 └── app.module.ts          # Módulo raiz
+``
 
 ---
 
