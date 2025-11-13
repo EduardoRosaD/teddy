@@ -20,25 +20,26 @@ API RESTful para **encurtamento de URLs** desenvolvida com **NestJS**, **TypeORM
 ## 📂 Estrutura do Projeto
 
 src/
-├── auth/                # Módulo de autenticação (JWT)
+├── auth/                  # Módulo de autenticação (JWT)
 │   ├── auth.controller.ts
 │   ├── auth.service.ts
 │   ├── jwt.strategy.ts
 │   └── optional-auth.guard.ts
 │
-├── users/               # Módulo de usuários
+├── users/                 # Módulo de usuários
 │   ├── user.entity.ts
 │   ├── users.service.ts
 │   └── users.controller.ts
 │
-├── urls/                # Módulo de encurtamento de URLs
+├── urls/                  # Módulo de encurtamento de URLs
 │   ├── url.entity.ts
 │   ├── urls.service.ts
 │   ├── urls.controller.ts
-│   └── dto/             # DTOs (Data Transfer Objects)
+│   └── dto/               # DTOs (Data Transfer Objects)
 │
-├── main.ts              # Bootstrap da aplicação
-└── app.module.ts        # Módulo raiz
+├── main.ts                # Bootstrap da aplicação
+└── app.module.ts          # Módulo raiz
+
 
 ---
 
